@@ -49,7 +49,7 @@ namespace ProjectFoldersCleanUp
                     {
                         try
                         {
-                            Console.WriteLine("Deleting: {0}", dn);
+                            Console.WriteLine("Deleting: {0}", dirName);
                             Directory.Delete(dirName, true);
                         }
                         catch (Exception ex)
